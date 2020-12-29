@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <title>TikTok App</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script>
+            (function(w, d){
+                var id='embedly-platform', n = 'script';
+                if (!d.getElementById(id)){
+                    w.embedly = w.embedly || function() {(w.embedly.q = w.embedly.q || []).push(arguments);};
+                    var e = d.createElement(n); e.id = id; e.async=1;
+                    e.src = ('https:' === document.location.protocol ? 'https' : 'http') + '://cdn.embedly.com/widgets/platform.js';
+                    var s = d.getElementsByTagName(n)[0];
+                    s.parentNode.insertBefore(e, s);
+                }
+            })(window, document);
+        </script>
+        <script type="text/javascript" src="//cdn.embed.ly/player-0.0.11.min.js"></script>
+        <script src="js/script.js"></script>
+        <div id="content">
+            <a href="https://www.tiktok.com/@tiktok/video/6584979523391982853" class="embedly-card" id="embed">Embedly</a>
+        </div>
+        <button id="next">
+            Next tiktok
+        </button>
+    </body>
+</html>

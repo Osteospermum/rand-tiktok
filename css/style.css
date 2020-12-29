@@ -1,0 +1,15 @@
+* {
+    height: 100%
+}
+
+#next {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+#content {
+    float: left;
+    height: 43em;
+    width: 19em;
+}
